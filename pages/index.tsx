@@ -1,15 +1,8 @@
 import Head from "next/head";
 import { generateRSS } from "../rssUtil";
-import { PostData, loadBlogPosts } from "../loader";
-import FavoritePosts from "../components/FavoritePosts";
-import RecentPosts from "../components/RecentPosts";
+import { loadBlogPosts } from "../loader";
 
-const Home = (props: {
-  introduction: string;
-  features: string;
-  readme: string;
-  posts: PostData[];
-}) => {
+const Home = () => {
   return (
     <div className="content">
       <Head>
