@@ -33,7 +33,6 @@ const Home = () => {
         />
         <meta name="msapplication-TileColor" content="#da532c" />
         <meta name="theme-color" content="#ffffff" />
-        <a rel="me" href="https://blue-sky.world/@zagways">Mastodon</a>
       </Head>
 
       <div className="section">
