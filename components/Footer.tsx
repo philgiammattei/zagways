@@ -8,7 +8,7 @@ export const Footer: React.FC = () => (
     <a rel="me" href="https://blue-sky.world/@zagways">
       <img src="/img/mastodon.svg" alt="Mastodon" height="30" width="30" />
     </a>
-    <a href="/rss.xml">
+    <a href="http://feeds.libsyn.com/427340/rss">
       <img src="/img/rss-white.svg" alt="RSS Feed" height="30" width="30" />
     </a>
   </div>

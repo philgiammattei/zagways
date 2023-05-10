@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { generateRSS } from "../rssUtil";
 import { loadBlogPosts } from "../loader";
+import Link from "next/link";
 
 const Home = () => {
   return (
@@ -36,8 +37,13 @@ const Home = () => {
       </Head>
 
       <div className="section">
-
-        Zagways
+        <main>
+          <h2>Zagways</h2>
+          <p>Two friends and creative partners find things to share.  New episodes every Thursday.</p>
+          <p>Search "Zagways" in your favorite podcast app to subscribe.</p>
+          <p><Link href="https://sites.libsyn.com/427340">Here's where the thing is actually hosted.</Link></p>
+          <p>Send us an <Link href="mailto:coolguy@zagways.org">email</Link>! Please be nice.</p>
+        </main>
       </div>
     </div>
   );
